@@ -1,0 +1,47 @@
+.div {
+    margin: 5px;
+
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    margin: 0px auto;
+    border: #d5bdaf 6px solid;
+    justify-content: space-around;
+    width: 400px;
+    text-align: center;
+    color: #2b2830;
+    background-color: #dddddd;
+    border-style: inset;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 6px;
+    text-shadow:2px 2px 0px #faedcd;
+    box-shadow: 5px 5px 8px 2px #e1ca96;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease;
+}
+
+.blueborder {
+    border: dotted blue 1px;
+}
+
+img:hover, h3:hover, p:hover, h4:hover{
+    background-color: #f8edeb;
+}
+@keyframes myanimation {
+    0%{background-color: #e9edc9;}
+   25% {background-color: #d8e2dc;}
+    50%{background-color: #f7ede2;}
+    75%{background-color: #ced4da;}
+    100%{background-color: #ffdab9;}
+}
